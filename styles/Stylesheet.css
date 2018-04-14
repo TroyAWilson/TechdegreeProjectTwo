@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  margin:auto;
+  font-family: sans-serif;
+/*  Needs a color ligher than black for the h1,2,3's*/
+}
+p {
+  color:grey;
+}
+header {
+    background: whitesmoke;
+}
+header ul {
+  max-width: 90%;
+  padding: 0;
+  margin:auto;
+}
+header li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  padding:5px;
+  background-color: white;
+}
+header h1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+header p {
+  padding-bottom: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+main {
+  margin: auto;
+
+}
+#portfolio {
+  max-width: 90%;
+}
+
+.Student-img{
+  width: 250px;
+
+}
+.port-img{
+  max-width: 90%;
+
+}
+
+#contact{
+  padding-bottom: 50px;
+  padding-top: 30px;
+
+}
+#contact,
+footer {
+  background-color: whitesmoke;
+}
+
+footer {
+  padding-bottom: 10px;
+  padding-top: 15px;
+
+}
+
+.realFooter{
+  border-top: 1px solid lightgrey;
+}
+
+.footName {
+  float:left;
+}
+.toTop {
+  float: right;
+
+}
+
+/* Link styles */
+a {
+  color: tomato;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+
+/*  */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.debug {
+  border: 1px red solid;
+}
