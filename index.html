@@ -10,7 +10,8 @@
 </head>
 
 <body>
-  <header >
+  <header class ="clearfix" >
+    <nav class="clearfix">
       <h1>Student Name</h1>
 
       <ul>
@@ -18,7 +19,7 @@
         <li><a href = "#portfolio">Portfolio</a></li>
         <li><a href = "#contact">Contact</a></li>
       </ul>
-
+    </nav>
       <img class ="Student-img" src ="img/responsive-layout-profile.png">
 
       <p>Hi! I'm a front-end developer who loves responsive
@@ -28,7 +29,7 @@
       </p>
   </header>
 
-  <main id = "portfolio">
+  <main id = "portfolio" class ="clearfix">
       <h2>Portfolio</h2>
       <div class ="container marketing-page">
         <img class = "port-img" src ="img/portfolio-1.png" alt = "">
@@ -95,6 +96,7 @@
   <footer class="clearfix">
     <div id = "contact">
       <h3>Contact</h3>
+      <div class = "contactText">
         <p>
           if you're intersted in chatting or want more
           information about what I've been working on,
@@ -102,10 +104,16 @@
         </p>
           <p>Phone <strong>+1(111)555-1234</strong></p>
           <p>Email <strong>email@yoursite.com</strong></p>
+      </div>
     </div>
     <div class = "realFooter">
       <p class ="footName"><strong>Student name</strong></p>
       <p class ="toTop"><strong><a href = "#">BACK TO TOP</a></strong></p>
+      <ul class = "botList">
+        <li><a href = "#">Home </a></li>
+        <li><a href = "#portfolio">Portfolio</a></li>
+        <li><a href = "#contact">Contact</a></li>
+      </ul>
     </div>
   </footer>
 <!--  test
